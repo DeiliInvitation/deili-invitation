@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import { Italiana } from "next/font/google";
+import { Italiana, Outfit } from "next/font/google";
 import "./globals.css";
 
 const sallim = localFont({
@@ -12,6 +12,12 @@ const italiana = Italiana({
   subsets: ["latin"],
   variable: "--font-italiana",
   weight: ["400"],
+  display: "swap"
+});
+const outfit = Outfit({
+  subsets: ["latin"],
+  variable: "--font-outfit",
+  weight: ["200","300","400","500","600","700","800","900"],
   display: "swap"
 });
 
@@ -28,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${sallim.variable} ${italiana.className} antialiased`}
+        className={`${sallim.variable} ${outfit.variable} ${italiana.className} antialiased`}
       >
         {children}
       </body>

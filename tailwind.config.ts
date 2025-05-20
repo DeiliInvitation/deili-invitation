@@ -9,7 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sallim: "var(--font-sallim)"
+        sallim: "var(--font-sallim)",
+        outfit: "var(--font-outfit)"
       },
       colors: {
         background: "var(--background)",
