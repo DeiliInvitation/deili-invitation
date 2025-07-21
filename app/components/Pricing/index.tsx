@@ -6,7 +6,7 @@ import { PricingPlanData } from "@/data/data";
 
 const Pricing: React.FC = () => {
   return (
-    <div className="mx-5 md:mx-10 my-20 flex flex-col gap-5">
+    <div className="mx-5 md:mx-10 my-20 xl:mx-20 flex flex-col gap-5">
       <div>
         <Subtitle>👑 See Our Plan</Subtitle>
         <div className="flex items-center justify-between">

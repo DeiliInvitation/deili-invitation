@@ -58,15 +58,15 @@ const Footer: React.FC = () =>{
                 <div className="grid grid-cols-2 grid-rows-2 md:grid-rows-1 md:grid-cols-3 items-center"> 
                     <p className="font-semibold col-start-1 col-span-1 w-full">&copy; Deili Invitation, 2025.</p>
                     <div className="col-start-2 col-span-1 flex justify-end md:justify-center w-full">
-                        <Image src={`/image.png`} alt="logo" width={80} height={80} className="rounded-full bg-lightGray " />
+                        <Image src={`/logo.png`} alt="logo" width={100} height={100} className="rounded-full bg-black" />
                     </div>
-                    <div className="flex items-center gap-1 row-start-2 row-span-1 col-start-1 md:col-start-3 col-span-2 justify-center md:justify-end w-full">
+                    <div className="flex items-center gap-1 row-start-2 md:row-start-1 row-span-1 col-start-1 md:col-start-3 col-span-2 justify-center md:justify-end w-full">
                         <p>Made by</p>
-                        <Image src={`/image.png`} alt="logo" width={30} height={30} className="rounded-full bg-lightGray" />
+                        <Image src={`/mypic.webp`} alt="logo" width={30} height={30} className="rounded-full bg-lightGray" />
                         <p className="font-sallim text-xl">Amalia</p>
                     </div>
                 </div>
-                <h1 className="text-center text-4xl sm:text-6xl md:text-7xl lg:text-9xl xl:text-[130px] font-bold bg-gradient-to-r from-white via-pinky to-thickPink text-transparent bg-clip-text leading-none translate-y-1 md:translate-y-3 lg:translate-y-5 whitespace-nowrap">DEILI INVITATION</h1>
+                <h1 className="text-center text-4xl sm:text-6xl md:text-7xl lg:text-9xl xl:text-[130px] font-bold bg-gradient-to-r from-white via-pinky to-thickPink text-transparent bg-clip-text leading-none translate-y-1 md:translate-y-3 lg:translate-y-5 whitespace-nowrap" id="footer-text">DEILI INVITATION</h1>
             </div>
         </div>
     )

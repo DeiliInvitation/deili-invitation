@@ -20,9 +20,9 @@ const navbar = [
 
 const Header: React.FC = () =>{
     return(
-        <div className="grid grid-cols-3 w-full px-3 py-2 shadow-softShadow rounded-full">
+        <div id="Header" className="grid grid-cols-3 w-full px-3 py-2 shadow-softShadow rounded-full bg-white">
             <div className="flex items-center gap-2">
-                <Image src={`/image.png`} alt="image" className="rounded-full bg-lightGray" width={45} height={45} />
+                <Image src={`/logo-bgblack.png`} alt="image" className="rounded-full" width={45} height={45} />
                 <h3 className="font-sallim text-2xl">Deili Invitation</h3>
             </div>
             <div className="justify-self-center flex items-center justify-center gap-5 font-extralight text-sm">

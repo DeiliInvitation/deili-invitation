@@ -1,4 +1,8 @@
-import img from '@/public/deili-img.webp';
+import img from '@/public/deili-bg.webp';
+import img2 from '@/public/wedding.webp';
+import img3 from '@/public/wedding2.webp';
+import img4 from '@/public/wedding4.webp';
+import img5 from '@/public/deili-img.webp';
 
 export const TemplateData = [
     {
@@ -13,28 +17,28 @@ export const TemplateData = [
         price: 300000,
         discount: 0,
         type: "Basic",
-        image: img
+        image: img2
     },
     {
         name: "Template Premium 003",
         price: 250000,
         discount: 0.5,
         type: "Premium",
-        image: img
+        image: img3
     },
     {
         name: "Template Premium 004",
         price: 500000,
         discount: 0,
         type: "Premium",
-        image: img
+        image: img5
     },
     {
         name: "Template Simple 005",
         price: 150000,
         discount: 0.5,
         type: "Basic",
-        image: img
+        image: img4
     },
     {
         name: "Template Luxury 006",
@@ -48,7 +52,7 @@ export const TemplateData = [
         price: 750000,
         discount: 0,
         type: "VIP",
-        image: img
+        image: img2
     },
     {
         name: "Template Simple 008",
@@ -62,7 +66,7 @@ export const TemplateData = [
         price: 150000,
         discount: 0.5,
         type: "Basic",
-        image: img
+        image: img3
     },
     {
         name: "Template Simple 010",
@@ -76,36 +80,31 @@ export const TemplateData = [
         price: 300000,
         discount: 0,
         type: "Basic",
-        image: img
+        image: img4
     },
 ]
 
 export const Categories = [
     {
         name: "All",
-        image: "/image.png",
+        image: "/invitation-1.webp",
         id: "all"
     },
     {
         name: "Wedding",
-        image: "/image.png",
+        image: "/deili-bg.webp",
         id: "wedding"
     },
     {
         name: "Birthday",
-        image: "/image.png",
+        image: "/invitation-1.webp",
         id: "birthday"
     },
     {
         name: "Organization",
-        image: "/image.png",
+        image: "/invitation-1.webp",
         id: "organization"
-    },
-    {
-        name: "Formal",
-        image: "/image.png",
-        id: "formal"
-    },
+    }
 ]
 
 export const benefit = [

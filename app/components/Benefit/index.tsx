@@ -4,7 +4,7 @@ import { benefit } from "@/data/data";
 
 const Benefit: React.FC = () =>{
     return(
-        <div className="mx-5 md:mx-10 my-20">
+        <div className="mx-5 md:mx-10 xl:mx-20 my-20">
             <div>
                 <Subtitle>👑 why choose us</Subtitle>
                 <Title>Benefit from our Invitation</Title>
